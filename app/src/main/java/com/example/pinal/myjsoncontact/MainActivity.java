@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
 
             if(resp!= null){
                 try {
+
+
+
+                  //Change test 
                     JSONObject  jobj=new JSONObject(resp);
                     JSONArray jarray=jobj.getJSONArray("articleList");
 
